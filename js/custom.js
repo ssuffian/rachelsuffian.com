@@ -85,7 +85,8 @@ $('#clients-carousel').owlCarousel({
 	$('.featured-work-img').magnificPopup({
 	  type: 'image',
 	  gallery:{
-	    enabled:true
+	    enabled:true,
+      titleSrc: 'title'
 	  }
 	});
 
