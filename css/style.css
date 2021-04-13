@@ -600,6 +600,7 @@ header.page-header .main-menu{
 }
 .navbar-brand img {
 	margin-top: 10px;
+  display: inline !important;
 }
 .main-menu .navbar-nav{
     float: right;
