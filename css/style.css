@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300);
 @import 'https://fonts.googleapis.com/css?family=Asap';
 
+iframe {
+  display: block;
+  margin: auto
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
@@ -840,6 +845,8 @@ header.page-header .main-menu.minified{
 }
 
 .portfolio-items .portfolio-item{
+  display: block;
+  margin: auto;
 	width: 250px;
 	height: 250px;
 	position: relative;
