@@ -845,8 +845,6 @@ header.page-header .main-menu.minified{
 }
 
 .portfolio-items .portfolio-item{
-  display: block;
-  margin: auto;
 	width: 250px;
 	height: 250px;
 	position: relative;
@@ -854,6 +852,8 @@ header.page-header .main-menu.minified{
 }
 
 .portfolio-items .portfolio-item img{
+  display: block;
+  margin: auto;
 	height: 100%;
 	/* border: 1px solid #988594; */
 	width: 250px;
