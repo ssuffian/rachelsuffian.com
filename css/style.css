@@ -7,7 +7,8 @@ iframe {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'El Messiri';
   background: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -78,7 +79,8 @@ header.page-header{
 	 color: #b92763;
 	}
 h1,h2,h3,h4,h5,h6{
-   font-family: 'Asap', sans-serif;
+   /*font-family: 'Asap', sans-serif;*/
+   font-family: 'El Messiri';
     /* font-weight: 700; */
     line-height: 1.2;
     margin-top: 0;
@@ -675,7 +677,6 @@ header.page-header .main-menu.minified{
 
 .iframe-header{
   padding-top: 20px;
-  margin-left: 30px;
   text-align: center;
 }
 
@@ -964,7 +965,8 @@ header.page-header .main-menu.minified{
 }
 
 .portfolio-btn-wrapper a.portfolio-btn{
-	font-family: 'Raleway',cursive;
+	/*font-family: 'Raleway',cursive;*/
+  font-family: 'El Messiri';
 	font-weight: 400;
 	color: #ffffff;
 	display: inline;
@@ -1234,7 +1236,8 @@ header.page-header .main-menu.minified{
 .contact-section .contact-form .input-fields label{
 	display: block;
 	font-size: 14px;
-	font-family: 'Raleway',cursive;
+	/*font-family: 'Raleway',cursive;*/
+  font-family: 'El Messiri';
 	font-weight: 400;
 	margin-bottom: 10px;
 }
