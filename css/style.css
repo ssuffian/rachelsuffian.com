@@ -20,7 +20,7 @@ body {
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #20181f;
+  background: black;/*#20181f;*/
 }
 
 html{
@@ -76,7 +76,7 @@ header.page-header{
 	}
 
  b, strong{
-	 color: #b92763;
+	 color: #4c9990;
 	}
 h1,h2,h3,h4,h5,h6{
    /*font-family: 'Asap', sans-serif;*/
@@ -355,7 +355,7 @@ a:active{
 	font-size:52px;
 	margin: 10px 0 20px;
 	display: inline-block;
-	color: #b92763;
+	color: #4c9990;
 }
 .text-primary {
     color: #8a7187 !important;
@@ -439,7 +439,7 @@ section#services {
     margin: 28px 15px 10px;
 }
 .icon i {
-    color: #b92763;
+    color: #4c9990;
     font-size: 50px;
     margin: 16px 0 34px 0;
     display: inline-block;
@@ -470,7 +470,7 @@ section#services {
 .section-header h2{
 	/* font-weight: 700; */
 	font-size: 48px;
-	color: #b92763;
+	color: #4c9990;
 	border-top: none;
 	border-bottom: none;
 	padding: 8px 10px;
@@ -611,7 +611,7 @@ header.page-header .main-menu{
 
 .main-menu .navbar-nav li a:hover,
 .main-menu .navbar-nav li.active a{
-    background-color: rgb(185, 39, 99);
+    background-color: #4c9990;/*rgb(185, 39, 99);*/
     color: #ffffff;
 }
 
@@ -621,7 +621,7 @@ header.page-header .main-menu{
 
  
 .main-menu.minified{
-	background-color: #20181f;
+	background-color: black;/*#20181f;*/
 	padding: 0;
 	position: fixed;
 	border: none;
@@ -829,17 +829,17 @@ header.page-header .main-menu.minified{
 	padding: 10px 20px;
 	display: inline-block;
 	margin: 0 8px !important;
-	border: 1px solid #b92763;
+	border: 1px solid #4c9990;
 }
 
 .portfolio-filter-btn-group ul li a:hover{
 	color: #FFF;
-	background-color: #b92763;
+	background-color: #4c9990;
 }
 
 .portfolio-filter-btn-group ul li a.selected{
 	color: #ffffff;
-	background: #b92763;
+	background: #4c9990;
 }
 .portfolio-items{
 	overflow: hidden;
@@ -867,7 +867,7 @@ header.page-header .main-menu.minified{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: rgba(185, 39, 99, 0.13);
+	background-color: #4c9990;/*rgba(185, 39, 99, 0.13);*/
 	display: table;
 	opacity: 0;
 	-webkit-transition: all .3s;
@@ -1030,7 +1030,7 @@ header.page-header .main-menu.minified{
 
 #team {
     padding: 100px 0;
-    background: #150f14;
+    /*background: #150f14;*/
 }
 .teams-section{
 	position: relative;
@@ -1143,7 +1143,7 @@ header.page-header .main-menu.minified{
 }
 .pricing-plans .pricing-titles{
 	text-align: center;
-	border: 1px solid #b92763;
+	border: 1px solid #4c9990;
 	border-bottom: 0;
 	padding: 25px 0 15px;
 }
@@ -1158,7 +1158,7 @@ header.page-header .main-menu.minified{
 
 .pricing-plans .pricing-titles p{
 	font-size: 16px;
-	color: #b92763;
+	color: #4c9990;
 }
 
 .pricing-plans .pricing-titles p span{
@@ -1166,9 +1166,9 @@ header.page-header .main-menu.minified{
 	font-weight: 300;
 }
 .pricing-plans .pricing-service-name{
-	background-color: #20181f;
-	border-left: 1px solid #b92763;
-	border-right: 1px solid #b92763;
+	background-color: black;/*#20181f;*/
+	border-left: 1px solid #4c9990;
+	border-right: 1px solid #4c9990;
 }
 
 .pricing-plans ul li{
@@ -1184,12 +1184,12 @@ header.page-header .main-menu.minified{
 	padding: 15px 30px;
 	text-align: center;
 	display: inline-block;
-	background: #b92763;
+	background: #4c9990;
 }
 .bg-btn {
 	padding: 20px;
 	border-top: none;
-	border: #b92763 solid 1px;
+	border: #4c9990 solid 1px;
 	border-top: none;
 }
 .pricing-plans a.signup-btn:hover{
@@ -1336,7 +1336,7 @@ header.page-header .main-menu.minified{
 }
 
 footer{
-	background-color: #150f14;
+	/*background-color: #150f14;*/
 	padding: 20px 15px;
 	overflow: hidden;
 }
