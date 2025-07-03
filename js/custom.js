@@ -19,6 +19,29 @@ jQuery(document).ready(function() {
       jQuery("#nav-menu").removeClass("in").addClass("collapse");
   });
 
+  // Close hamburger menu when clicking outside
+  $(document).on('click', function(e) {
+    var $navbar = $('#collapsingNavbar');
+    var $navbarToggle = $('.navbar-toggler');
+    
+    // Check if the click is outside the navbar and the navbar is currently open
+    if (!$navbar.is(e.target) && 
+        $navbar.has(e.target).length === 0 && 
+        !$navbarToggle.is(e.target) && 
+        $navbar.hasClass('in')) {
+      
+      // Close the menu using Bootstrap's collapse method
+      $navbar.collapse('hide');
+    }
+  });
+
+  // Close hamburger menu when clicking on menu items
+  $('#collapsingNavbar .nav a').on('click', function() {
+    if ($(window).width() < 768) { // Only on mobile
+      $('#collapsingNavbar').collapse('hide');
+    }
+  });
+
 /* --------- One Page Navigation -------- */
 	$('#collapsingNavbar').onePageNav({
 	    currentClass: 'active',
