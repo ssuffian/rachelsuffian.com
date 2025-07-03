@@ -1625,6 +1625,16 @@ footer ul li a i{
  
 
 @media only screen and (max-width: 767px) {
+ .sp-slide {
+    height: auto !important;
+    min-height: 400px;
+  }
+  
+  #about, #videos, #portfolio {
+    padding-top: 40px;
+    margin-top: -40px;
+  }
+  
  .navbar-brand{
 	 float:none !important;
 	 height: 0;
