@@ -665,6 +665,16 @@ header.page-header .main-menu.minified{
     position: absolute;
     height: 768px;
 }
+
+/* Fix for slider image stretching - override slider-pro.css */
+.sp-slide .sp-image {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: cover;
+    object-position: center;
+}
 .sp-mask {
     position: relative;
     overflow: hidden;
@@ -679,6 +689,7 @@ header.page-header .main-menu.minified{
 	color: rgb(243, 219, 229);
 	margin-bottom: 0;
 	text-align: center !important;
+	margin-top: 20px;
 }
 
 .features-section .container{
@@ -1627,12 +1638,36 @@ footer ul li a i{
 @media only screen and (max-width: 767px) {
  .sp-slide {
     height: auto !important;
-    min-height: 400px;
+    min-height: 250px;
+  }
+  
+  /* Ensure slider image maintains aspect ratio on mobile */
+  .sp-slide .sp-image {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    object-position: center;
   }
   
   #about, #videos, #portfolio {
     padding-top: 40px;
     margin-top: -40px;
+  }
+  
+  /* Reduce gap between slider and about section on mobile */
+  #about {
+    margin-top: -60px;
+  }
+  
+  /* Additional spacing fixes for mobile */
+  #slider {
+    margin-bottom: -30px;
+  }
+  
+  .about-sec {
+    padding-top: 80px !important;
   }
   
  .navbar-brand{

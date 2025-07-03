@@ -190,7 +190,7 @@ $( '#slider' ).sliderPro({
     touchSwipe: false,
     breakpoints: {
         600: {
-            height: 480
+            height: 250
         }
 	}
 });
