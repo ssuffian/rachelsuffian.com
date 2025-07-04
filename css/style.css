@@ -704,7 +704,7 @@ header.page-header .main-menu.minified{
 }
 
 .iframe-header{
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -1800,6 +1800,18 @@ footer ul li a i{
  
   .contact-section .contact-address {
     margin-bottom: 50px;
+  }
+  
+
+  
+  /* Reduce gap between section header and first video on mobile */
+  .section-header {
+    margin-bottom: 20px;
+  }
+  
+  /* Add gap between video columns on mobile */
+  .col-md-4 {
+    margin-bottom: 30px;
   }
 
 
