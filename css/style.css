@@ -463,7 +463,32 @@ section#services {
 
 .section-header{
 	text-align: center;
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+#about .section-header {
+	margin-top: 0;
+}
+
+.col-md-12.section-header {
+	margin-bottom: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.section-header + div,
+.section-header + .col-md-4 {
+	margin-top: 0;
+}
+
+.section-header + .customized-text {
+	margin-top: 0 !important;
+	padding-top: 0 !important;
+}
+
+.section-header + .customized-text h4:first-child {
+	margin-top: 0 !important;
 }
 
 .section-header h1{
@@ -480,6 +505,7 @@ section#services {
 	border-top: none;
 	border-bottom: none;
 	padding: 8px 10px;
+	margin-bottom: 0;
 }
 
 .section-header h1 span{
@@ -706,6 +732,7 @@ header.page-header .main-menu.minified{
 .iframe-header{
   padding-top: 10px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .portfolio-section{
@@ -1812,6 +1839,22 @@ footer ul li a i{
   /* Add gap between video columns on mobile */
   .col-md-4 {
     margin-bottom: 30px;
+  }
+  
+  /* Hide empty spacer lines in video titles on smaller screens */
+  .iframe-header .empty-spacer {
+    display: none;
+  }
+  
+  /* Center Glass Animals video on smaller screens */
+  .col-md-4 a > div {
+    display: block !important;
+    margin: 0 auto !important;
+  }
+  
+  .col-md-4 a {
+    display: block;
+    text-align: center;
   }
 
 
