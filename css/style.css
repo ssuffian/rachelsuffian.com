@@ -783,6 +783,12 @@ iframe {
   .photo-item {
     flex: 0 0 80vw;
   }
+  .hero-subtitle-location {
+    display: block;
+  }
+  .hero-subtitle-dash {
+    display: none;
+  }
 }
 
 .photo-item img {
